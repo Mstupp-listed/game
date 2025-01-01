@@ -20,7 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build && cp index.html build/landing.html",
+    "predeploy": "npm run build && cp landing.html build/",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
